@@ -1,0 +1,26 @@
+<main class="index">
+    <div class="container p-4">
+        <h1 class="text-center">Bienvenido</h1>
+        <div class="row">
+            {{#each listas}}
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <a href="/listas/descriptions/{{id}}">
+                            <h3 class="card-title text-uppercase">
+                                {{title}}
+                            </h3>
+                        </a>
+                        <p class="m-2">{{description}}</p>
+                        <p class="m-2">{{categoria}}</p>
+                        <div class="m-2">
+                            <img class="img-size rounded" src="../uploads/{{imagenes}}"  alt="">
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</main>
