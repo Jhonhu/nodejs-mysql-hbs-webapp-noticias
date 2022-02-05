@@ -1,6 +1,6 @@
 # News App developed in Nodejs and Mysql using Handlebars as a template engine
 ## Also deployed using Heroku
-- Link -
+  Link
 ### https://nodejs-mysql-hbs-noticias-app.herokuapp.com/
 
 ## File Structure
